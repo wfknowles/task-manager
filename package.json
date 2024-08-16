@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "turbo run dev",
+    "dev": "turbo run build dev",
     "build": "turbo run build",
     "start": "node apps/backend/dist/main"
   },
@@ -15,6 +15,7 @@
   "workspaces": [
     "apps/*"
   ],
+  "packageManager": "npm@10.7.0",
   "devDependencies": {
     "turbo": "^2.0.14"
   },
